@@ -4,12 +4,13 @@
     "paths": {
       "react-zippy-components": ["./src/index"]
     },
+    "target": "esnext",
+    "lib": ["es6", "ES2019"],
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
-    "lib": ["esnext"],
     "module": "esnext",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
@@ -22,7 +23,6 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "esnext",
     "verbatimModuleSyntax": true
   }
 }
