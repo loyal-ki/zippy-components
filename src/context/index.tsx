@@ -1,11 +1,27 @@
 import React from 'react';
 import {
   ThemeProvider as InternalThemeProvider,
-  type ThemeProps,
+  type ThemeProps as ThemeProviderProps,
+  useTheme,
 } from './themes/theme-context';
+import {
+  ScreenLoadingProvider,
+  useScreenLoading,
+  type ScreenLoadingProviderProps,
+} from './screen-loading';
 
-const ThemeProvider: React.FC<ThemeProps> = ({ children }) => {
-  return <InternalThemeProvider>{children}</InternalThemeProvider>;
+const ThemeProvider: React.FC<
+  ThemeProviderProps & {
+    screenLoadingProps?: ScreenLoadingProviderProps;
+  }
+> = ({ children, screenLoadingProps }) => {
+  return (
+    <InternalThemeProvider>
+      <ScreenLoadingProvider {...screenLoadingProps}>
+        {children}
+      </ScreenLoadingProvider>
+    </InternalThemeProvider>
+  );
 };
 
-export { ThemeProvider };
+export { ThemeProvider, useTheme, useScreenLoading };

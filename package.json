@@ -1,6 +1,6 @@
 {
   "name": "react-zippy-components",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Shared components react",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -32,6 +32,7 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
     "prepare": "bob build",
+    "fix": "prettier --write \"{app,src,modules}/**/*.{ts,tsx}\"",
     "release": "release-it"
   },
   "keywords": [
@@ -168,6 +169,7 @@
     ]
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "react-native-haptic-feedback": "^2.2.0"
   }
 }
