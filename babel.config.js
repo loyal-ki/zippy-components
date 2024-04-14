@@ -5,7 +5,10 @@ module.exports = {
       plugins: ['react-native-reanimated/plugin'],
     },
   },
-  presets: ['module:metro-react-native-babel-preset'],
+  presets: [
+    'module:metro-react-native-babel-preset',
+    '@babel/preset-typescript',
+  ],
   plugins: [
     [
       'module-resolver',
@@ -13,6 +16,7 @@ module.exports = {
         root: ['.'],
         extensions: ['.ts', '.tsx', '.js', '.json'],
         alias: {
+          '@src': './src',
           '@components': './src/components',
           '@constants': './src/constants',
           '@context': './src/context',
@@ -25,4 +29,5 @@ module.exports = {
     ],
     'react-native-reanimated/plugin',
   ],
+  exclude: ['**/*.png', '**/*.jpg', '**/*.gif'],
 };

@@ -1,7 +1,8 @@
 import React, { type FC } from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 
-import { conditionalStyle, isDefined } from '@src/utils';
+import { conditionalStyle, isDefined } from '@utils';
+
 import { Icon } from '@components/icon';
 
 import type { ButtonSharedProps } from './button-shared.props';
