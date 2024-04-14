@@ -1,8 +1,26 @@
 {
   "compilerOptions": {
     "rootDir": ".",
+    "outDir": "./",
+    "baseUrl": ".",
     "paths": {
-      "react-zippy-components": ["./src/index"]
+      "react-zippy-components": ["./src/index"],
+      "@src": ["./src"],
+      "@src/*": ["src/*"],
+      "@components": ["src/components"],
+      "@components/*": ["src/components/*"],
+      "@constants": ["src/constants"],
+      "@constants/*": ["src/constants/*"],
+      "@context": ["src/context"],
+      "@context/*": ["src/context/*"],
+      "@hooks": ["src/hooks"],
+      "@hooks/*": ["src/hooks/*"],
+      "@utils": ["src/utils"],
+      "@utils/*": ["src/utils/*"],
+      "@assets": ["./assets"],
+      "@assets/*": ["assets/*"],
+      "@typings": ["./types"],
+      "@typings/*": ["types/*"]
     },
     "target": "esnext",
     "lib": ["es6", "ES2019"],
@@ -24,5 +42,14 @@
     "skipLibCheck": true,
     "strict": true,
     "verbatimModuleSyntax": true
-  }
+  },
+  "include": ["src/**/*", "jest/**/*", "types/**/*", "test/**/*"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js",
+    "modules"
+  ]
 }

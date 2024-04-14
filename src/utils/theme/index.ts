@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import type { NamedStyles } from '../../@types/styles/styles';
+import type { NamedStyles } from '../../../types/styles/styles';
 
 const rgbPattern = /^rgba?\((\d+),(\d+),(\d+)(?:,([\d.]+))?\)$/;
 
