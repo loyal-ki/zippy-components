@@ -1,6 +1,6 @@
 import React, { type FC } from 'react';
 
-import { IconNameEnum } from '@src/components/icon';
+import { IconNameEnum } from '@components/icon';
 import { Button } from '@components/button/button';
 import type { ButtonSharedProps } from '@components/button/button-shared.props';
 

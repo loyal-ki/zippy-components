@@ -25,7 +25,7 @@ import Thumbnail from './thumbnail';
 
 import { useTheme } from '@context/themes/theme-context';
 import type { ImageStyles } from '@typings/styles/styles';
-import { emptyFn } from '@src/utils';
+import { emptyFn } from '@utils';
 
 const AnimatedImageBackground =
   Animated.createAnimatedComponent(ImageBackground);

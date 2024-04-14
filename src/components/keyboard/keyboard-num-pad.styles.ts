@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { FontsEnum, makeStyleSheetFromTheme } from '@src/utils';
+import { FontsEnum, makeStyleSheetFromTheme } from '@utils';
 
 const percentByNumOfColumns = 100 / 3;
 

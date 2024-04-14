@@ -32,7 +32,7 @@ import Animated, {
   Easing,
 } from 'react-native-reanimated';
 
-import { formatSize, typography } from '@src/utils';
+import { formatSize, typography } from '@utils';
 import { Icon, IconNameEnum } from '@components/icon';
 import { changeOpacity, makeStyleSheetFromTheme } from '@utils/theme';
 

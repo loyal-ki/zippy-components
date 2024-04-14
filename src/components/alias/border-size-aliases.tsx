@@ -1,4 +1,4 @@
-import { formatSize } from '@src/utils';
+import { formatSize } from '@utils';
 
 export const BorderSize1 = formatSize(1);
 export const BorderSize2 = formatSize(2);

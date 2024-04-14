@@ -1,8 +1,8 @@
 import React, { type FC } from 'react';
 import { TouchableOpacity } from 'react-native';
 
-import { Icon } from '@src/components/icon';
-import { formatSize } from '@src/utils';
+import { Icon } from '@components/icon';
+import { formatSize } from '@utils';
 
 import type { ButtonIconProps } from './button-icon.props';
 import { getButtonIconStyleConfig } from './button-icon.styles';

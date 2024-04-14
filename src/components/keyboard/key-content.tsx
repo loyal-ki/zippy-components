@@ -6,7 +6,7 @@ import {
   View,
 } from 'react-native';
 
-import { useTheme } from '@src/context/themes/theme-context';
+import { useTheme } from '@context/themes/theme-context';
 import { Icon, IconNameEnum } from '@components/icon';
 
 import { getKeyboardNumberPadStyles } from './keyboard-num-pad.styles';

@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 
 import { useWhiteContainerDividerStyles } from './white-container-divider.styles';
-import { useTheme } from '@src/context/themes/theme-context';
+import { useTheme } from '@context/themes/theme-context';
 
 export const WhiteContainerDivider = () => {
   const { theme } = useTheme();

@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
-import { isIOS, makeStyleSheetFromTheme } from '@src/utils';
-import { typography } from '@src/utils/styles/typography';
+import { isIOS, makeStyleSheetFromTheme } from '@utils';
+import { typography } from '@utils/styles/typography';
 
 const percentByNumOfColumns = 1 / 4;
 const sizeBox = 500 * percentByNumOfColumns - 12;

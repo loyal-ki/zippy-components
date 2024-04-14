@@ -14,7 +14,7 @@ import {
 
 import type { ProgressProps } from './progress.props';
 import type { LayoutChangeEvent, ViewStyle } from 'react-native';
-import { usePersistFn } from '@src/hooks/use-persist-fn';
+import { usePersistFn } from '@hooks/use-persist-fn';
 
 type ViewLayout = { width: number; height: number };
 

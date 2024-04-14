@@ -1,4 +1,4 @@
-import { formatSize, makeStyleSheetFromTheme, typography } from '@src/utils';
+import { formatSize, makeStyleSheetFromTheme, typography } from '@utils';
 
 export const getButtonLargeStyleConfig = makeStyleSheetFromTheme(
   (theme: Theme) => ({
