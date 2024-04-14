@@ -1,6 +1,6 @@
 {
   "name": "react-zippy-components",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Shared components react",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
