@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
-import type { TestIdProps } from 'src/types/interface/test-id.props';
-import type { MarginProps } from 'src/types/styles/margin';
+import type { TestIdProps } from '../../types/interface/test-id.props';
+import type { MarginProps } from '../../types/styles/margin';
 import type { IconNameEnum } from '../icon';
 
 export interface ButtonSharedProps extends MarginProps, TestIdProps {

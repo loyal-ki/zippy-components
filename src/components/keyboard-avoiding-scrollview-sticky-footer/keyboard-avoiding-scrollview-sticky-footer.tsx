@@ -12,8 +12,8 @@ import {
   Animated,
 } from 'react-native';
 
-import { useMemoizedCallback } from 'src/hooks';
-import { AppCommonStyles } from 'src/utils';
+import { useMemoizedCallback } from '../../../src/hooks';
+import { AppCommonStyles } from '../../../src/utils';
 
 import type { IKeyboardAvoidingScrollViewStickyFooterProps } from './keyboard-avoiding-scrollview-sticky-footer.props';
 import { BlankSpacer, Spacing0 } from '../alias';

@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-import { isDefined } from 'src/utils';
+import { isDefined } from '../../../src/utils';
 
 import { KeyContent } from './key-content';
 import { getKeyboardNumberPadStyles } from './keyboard-num-pad.styles';

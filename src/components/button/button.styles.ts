@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { makeStyleSheetFromTheme } from 'src/utils';
+import { makeStyleSheetFromTheme } from '../../utils';
 
 export const getButtonStyleSheet = makeStyleSheetFromTheme((_: Theme) =>
   StyleSheet.create({

@@ -32,9 +32,12 @@ import Animated, {
   Easing,
 } from 'react-native-reanimated';
 
-import { formatSize, typography } from 'src/utils';
-import { Icon, IconNameEnum } from 'src/components/icon';
-import { changeOpacity, makeStyleSheetFromTheme } from 'src/utils/theme';
+import { formatSize, typography } from '../../../src/utils';
+import { Icon, IconNameEnum } from '../../../src/components/icon';
+import {
+  changeOpacity,
+  makeStyleSheetFromTheme,
+} from '../../../src/utils/theme';
 
 import { useTogglePasswordVisibility } from './hooks/use-toggle-password-visibility';
 import { getLabelPositions, onExecution } from './utils';

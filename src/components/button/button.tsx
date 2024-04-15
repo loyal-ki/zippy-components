@@ -4,7 +4,7 @@ import { Text, TouchableOpacity, View } from 'react-native';
 import type { ButtonSharedProps } from './button-shared.props';
 import type { ButtonStyleConfig } from './button-style.config';
 import { getButtonStyleSheet } from './button.styles';
-import { conditionalStyle, isDefined } from 'src/utils';
+import { conditionalStyle, isDefined } from '../../utils';
 import { Icon } from '../icon';
 
 interface Props extends ButtonSharedProps {

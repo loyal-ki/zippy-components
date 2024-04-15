@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "rootDir": ".",
-    "outDir": "./",
     "baseUrl": ".",
     "paths": {
       "react-zippy-components": ["./src/index"]

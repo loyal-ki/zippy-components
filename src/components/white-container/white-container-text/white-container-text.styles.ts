@@ -1,4 +1,8 @@
-import { formatSize, makeStyleSheetFromTheme, typography } from 'src/utils';
+import {
+  formatSize,
+  makeStyleSheetFromTheme,
+  typography,
+} from '../../../../src/utils';
 
 export const useWhiteContainerTextStyles = makeStyleSheetFromTheme(
   (theme: Theme) => ({

@@ -1,8 +1,8 @@
 import React, { type FC } from 'react';
 import { StatusBar } from 'react-native';
 
-import { useTheme } from 'src/context';
-import { useBarStyle } from 'src/hooks';
+import { useTheme } from '../../../src/context';
+import { useBarStyle } from '../../../src/hooks';
 
 export const ScreenStatusBar: FC = () => {
   const { theme } = useTheme();

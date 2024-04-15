@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { formatSize } from 'src/utils';
+import { formatSize } from '../../../../src/utils';
 
 export const WhiteContainerActionStyles = StyleSheet.create({
   container: {

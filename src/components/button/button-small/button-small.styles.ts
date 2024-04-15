@@ -1,5 +1,9 @@
 import { StyleSheet } from 'react-native';
-import { makeStyleSheetFromTheme, generateShadow, formatSize } from 'src/utils';
+import {
+  makeStyleSheetFromTheme,
+  generateShadow,
+  formatSize,
+} from '../../../utils';
 
 export const getButtonSmallSharedStyleConfig = makeStyleSheetFromTheme(
   (theme: Theme) =>

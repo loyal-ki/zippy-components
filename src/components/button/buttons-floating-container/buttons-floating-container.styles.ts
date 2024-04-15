@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { formatSize, makeStyleSheetFromTheme } from 'src/utils';
+import { formatSize, makeStyleSheetFromTheme } from '../../../../src/utils';
 
 export const getButtonFloatingContainerStyleSheet = makeStyleSheetFromTheme(
   (theme: Theme) =>

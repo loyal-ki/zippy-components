@@ -1,4 +1,4 @@
-import { makeStyleSheetFromTheme } from 'src/utils';
+import { makeStyleSheetFromTheme } from '../../../../utils';
 import { getButtonSmallSharedStyleConfig } from '../button-small.styles';
 
 export const getButtonSmallDelegateStyles = makeStyleSheetFromTheme(
