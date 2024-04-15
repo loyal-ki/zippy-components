@@ -1,4 +1,4 @@
-import { formatSize, makeStyleSheetFromTheme, typography } from '@utils';
+import { makeStyleSheetFromTheme, typography, formatSize } from 'src/utils';
 
 export const getButtonTextStyleConfig = makeStyleSheetFromTheme(
   (theme: Theme) => ({

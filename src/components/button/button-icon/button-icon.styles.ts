@@ -1,6 +1,5 @@
 import { StyleSheet } from 'react-native';
-
-import { changeOpacity, makeStyleSheetFromTheme } from '@utils';
+import { makeStyleSheetFromTheme, changeOpacity } from 'src/utils';
 
 export const getButtonIconStyleConfig = makeStyleSheetFromTheme(
   (theme: Theme) =>

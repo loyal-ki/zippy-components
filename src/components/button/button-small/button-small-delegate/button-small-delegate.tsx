@@ -1,8 +1,7 @@
 import React, { type FC } from 'react';
-
-import { Button } from '@components/button/button';
-import { getButtonSmallDelegateStyles } from '@components/button/button-small/button-small-delegate/button-small-delegate.styles';
-import type { ButtonSmallProps } from '@components/button/button-small/button-small.props';
+import type { ButtonSmallProps } from '../button-small.props';
+import { getButtonSmallDelegateStyles } from './button-small-delegate.styles';
+import { Button } from '../../button';
 
 export const ButtonSmallDelegate: FC<ButtonSmallProps> = (
   props: ButtonSmallProps

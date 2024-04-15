@@ -1,9 +1,8 @@
 import React, { type FC } from 'react';
 
-import { Button } from '@components/button/button';
-import type { ButtonSharedProps } from '@components/button/button-shared.props';
-
 import { getButtonTextStyleConfig } from './button-text.styles';
+import type { ButtonSharedProps } from '../button-shared.props';
+import { Button } from '../button';
 
 interface Props extends ButtonSharedProps {
   title: string;

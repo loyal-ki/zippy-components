@@ -1,4 +1,4 @@
-import { formatTextSize } from '@utils';
+import { formatTextSize } from '../../utils';
 
 export const Text10 = formatTextSize(10);
 export const Text12 = formatTextSize(12);

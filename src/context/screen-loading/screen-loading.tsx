@@ -7,8 +7,8 @@ import {
 } from 'react';
 import { type StyleProp, StyleSheet, View, type ViewStyle } from 'react-native';
 import { useTheme } from '../themes/theme-context';
-import useModal from '@hooks/use-modal';
-import Loading from '@components/loading/loading';
+import useModal from 'src/hooks/use-modal';
+import Loading from 'src/components/loading/loading';
 
 type OverlayComponentProps = FunctionComponent<
   PropsWithChildren<{ style?: StyleProp<ViewStyle> }>

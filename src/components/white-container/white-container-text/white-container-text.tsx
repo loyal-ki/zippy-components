@@ -2,7 +2,7 @@ import React, { type FC } from 'react';
 import { Text } from 'react-native';
 
 import { useWhiteContainerTextStyles } from './white-container-text.styles';
-import { useTheme } from '@context/themes/theme-context';
+import { useTheme } from 'src/context/themes/theme-context';
 
 interface Props {
   text: string;

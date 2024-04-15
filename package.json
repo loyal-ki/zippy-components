@@ -26,6 +26,9 @@
     "!**/.*"
   ],
   "scripts": {
+    "ios": "react-native run-ios",
+    "ios-15": "cd example &&react-native run-ios --no-packager --simulator=\"iPhone 15 Pro Max\"",
+    "android": "react-native run-android",
     "example": "yarn workspace react-zippy-components-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",

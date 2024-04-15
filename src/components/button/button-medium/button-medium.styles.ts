@@ -1,4 +1,4 @@
-import { formatSize, makeStyleSheetFromTheme } from '@utils';
+import { makeStyleSheetFromTheme, formatSize } from 'src/utils';
 
 export const getButtonMediumStyleConfig = makeStyleSheetFromTheme(
   (theme: Theme) => ({

@@ -1,13 +1,11 @@
 import React, { type FC } from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 
-import { conditionalStyle, isDefined } from '@utils';
-
-import { Icon } from '@components/icon';
-
 import type { ButtonSharedProps } from './button-shared.props';
 import type { ButtonStyleConfig } from './button-style.config';
 import { getButtonStyleSheet } from './button.styles';
+import { conditionalStyle, isDefined } from 'src/utils';
+import { Icon } from '../icon';
 
 interface Props extends ButtonSharedProps {
   styleConfig: ButtonStyleConfig;

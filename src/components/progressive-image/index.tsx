@@ -19,13 +19,13 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 
-import { changeOpacity, makeStyleSheetFromTheme } from '@utils/theme';
+import { changeOpacity, makeStyleSheetFromTheme } from 'src/utils/theme';
 
 import Thumbnail from './thumbnail';
 
-import { useTheme } from '@context/themes/theme-context';
-import type { ImageStyles } from '@typings/styles/styles';
-import { emptyFn } from '@utils';
+import { useTheme } from 'src/context/themes/theme-context';
+import { emptyFn } from 'src/utils';
+import type { ImageStyles } from 'src/types/styles/styles';
 
 const AnimatedImageBackground =
   Animated.createAnimatedComponent(ImageBackground);

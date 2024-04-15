@@ -1,4 +1,4 @@
-import { formatSize } from '@utils';
+import { formatSize } from '../../utils';
 
 export const Spacing0 = formatSize(0);
 export const Spacing1 = formatSize(1);

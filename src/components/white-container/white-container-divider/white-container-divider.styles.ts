@@ -1,4 +1,4 @@
-import { formatSize, makeStyleSheetFromTheme } from '@utils';
+import { formatSize, makeStyleSheetFromTheme } from 'src/utils';
 
 export const useWhiteContainerDividerStyles = makeStyleSheetFromTheme(
   (theme: Theme) => ({

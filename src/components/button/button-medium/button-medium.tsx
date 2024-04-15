@@ -1,10 +1,9 @@
 import React, { type FC } from 'react';
 
-import { IconNameEnum } from '@components/icon';
-import { Button } from '@components/button/button';
-import type { ButtonSharedProps } from '@components/button/button-shared.props';
-
 import { getButtonMediumStyleConfig } from './button-medium.styles';
+import type { ButtonSharedProps } from '../button-shared.props';
+import type { IconNameEnum } from 'src/components/icon';
+import { Button } from '../button';
 
 interface Props extends ButtonSharedProps {
   title: string;

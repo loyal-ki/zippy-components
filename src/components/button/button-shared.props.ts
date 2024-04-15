@@ -1,8 +1,7 @@
 import type { ReactNode } from 'react';
-
-import { IconNameEnum } from '@components/icon';
-import type { TestIdProps } from '@typings/interface/test-id.props';
-import type { MarginProps } from '@typings/styles/margin';
+import type { TestIdProps } from 'src/types/interface/test-id.props';
+import type { MarginProps } from 'src/types/styles/margin';
+import type { IconNameEnum } from '../icon';
 
 export interface ButtonSharedProps extends MarginProps, TestIdProps {
   title?: ReactNode;

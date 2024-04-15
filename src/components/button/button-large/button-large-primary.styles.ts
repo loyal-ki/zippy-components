@@ -1,5 +1,4 @@
-import { makeStyleSheetFromTheme } from '@utils';
-
+import { makeStyleSheetFromTheme } from 'src/utils';
 import { getButtonLargeStyleConfig } from './button-large.styles';
 
 export const getButtonLargePrimaryStyleConfig = makeStyleSheetFromTheme(

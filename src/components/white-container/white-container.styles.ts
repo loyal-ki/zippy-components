@@ -1,4 +1,4 @@
-import { formatSize, generateShadow, makeStyleSheetFromTheme } from '@utils';
+import { formatSize, generateShadow, makeStyleSheetFromTheme } from 'src/utils';
 
 export const useWhiteContainerStyles = makeStyleSheetFromTheme(
   (theme: Theme) => ({

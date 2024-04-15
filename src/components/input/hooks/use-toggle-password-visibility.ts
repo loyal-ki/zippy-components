@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { IconNameEnum } from '@components/icon';
+import { IconNameEnum } from 'src/components/icon';
 
 export const useTogglePasswordVisibility = () => {
   const [passwordVisibility, setPasswordVisibility] = useState(true);

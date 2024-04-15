@@ -1,10 +1,9 @@
 import React, { type FC } from 'react';
 
-import { IconNameEnum } from '@components/icon';
-import { Button } from '@components/button/button';
-import type { ButtonSharedProps } from '@components/button/button-shared.props';
-
 import { getButtonOutlineLargeStyleConfig } from './button-outline-large.styles';
+import type { IconNameEnum } from 'src/components/icon';
+import type { ButtonSharedProps } from '../button-shared.props';
+import { Button } from '../button';
 
 interface Props extends ButtonSharedProps {
   title: string;

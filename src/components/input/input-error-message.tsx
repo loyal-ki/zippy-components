@@ -9,8 +9,8 @@ import {
   type ViewStyle,
 } from 'react-native';
 
-import { Spacing4 } from '@components/alias';
-import { makeStyleSheetFromTheme, typography } from '@utils';
+import { Spacing4 } from 'src/components/alias';
+import { makeStyleSheetFromTheme, typography } from 'src/utils';
 
 export const getInputErrorMessageStyleSheet = makeStyleSheetFromTheme(
   (theme: Theme) =>

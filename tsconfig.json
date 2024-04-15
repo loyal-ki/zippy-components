@@ -4,23 +4,7 @@
     "outDir": "./",
     "baseUrl": ".",
     "paths": {
-      "react-zippy-components": ["./src/index"],
-      "@src": ["./src"],
-      "@src/*": ["src/*"],
-      "@components": ["src/components"],
-      "@components/*": ["src/components/*"],
-      "@constants": ["src/constants"],
-      "@constants/*": ["src/constants/*"],
-      "@context": ["src/context"],
-      "@context/*": ["src/context/*"],
-      "@hooks": ["src/hooks"],
-      "@hooks/*": ["src/hooks/*"],
-      "@utils": ["src/utils"],
-      "@utils/*": ["src/utils/*"],
-      "@assets": ["./assets"],
-      "@assets/*": ["assets/*"],
-      "@typings": ["./types"],
-      "@typings/*": ["types/*"]
+      "react-zippy-components": ["./src/index"]
     },
     "target": "esnext",
     "lib": ["es6", "ES2019"],
@@ -41,9 +25,9 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": true
   },
-  "include": ["src/**/*", "jest/**/*", "types/**/*", "test/**/*"],
+  "include": ["src/**/*", "jest/**/*", "src/types/**/*", "test/**/*"],
   "exclude": [
     "node_modules",
     "build",

@@ -1,7 +1,6 @@
 import type { StyleProp, ViewStyle } from 'react-native';
-
-import { IconNameEnum } from '@components/icon';
-import type { TestIdProps } from '@typings/interface/test-id.props';
+import type { IconNameEnum } from 'src/components/icon';
+import type { TestIdProps } from 'src/types/interface/test-id.props';
 
 export interface ButtonIconProps extends TestIdProps {
   iconName: IconNameEnum;

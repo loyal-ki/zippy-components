@@ -1,4 +1,4 @@
-import { type ButtonSharedProps } from '@components/button/button-shared.props';
+import type { ButtonSharedProps } from '../button-shared.props';
 
 export interface ButtonLargeProps extends ButtonSharedProps {
   title: string;

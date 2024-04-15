@@ -1,6 +1,6 @@
 import React, { type FC } from 'react';
 
-import { Button } from '@components/button/button';
+import { Button } from '../button';
 
 import { getButtonLargePrimaryStyleConfig } from './button-large-primary.styles';
 import type { ButtonLargeProps } from './button-large.props';
