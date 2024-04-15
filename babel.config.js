@@ -1,28 +1,36 @@
 module.exports = {
-  env: {
-    test: {
-      presets: ['module:metro-react-native-babel-preset'],
-      plugins: ['react-native-reanimated/plugin'],
-    },
-  },
   presets: [
     'module:metro-react-native-babel-preset',
     '@babel/preset-typescript',
     ['@babel/preset-env', { targets: { node: 'current' } }],
   ],
   plugins: [
+    '@babel/plugin-transform-runtime',
+    ['@babel/plugin-proposal-decorators', { legacy: true }],
+    ['@babel/plugin-transform-flow-strip-types'],
+    ['@babel/plugin-proposal-class-properties', { loose: true }],
+    ['@babel/plugin-proposal-private-property-in-object', { loose: true }],
     [
       'module-resolver',
       {
         root: ['.'],
         extensions: ['.ts', '.tsx', '.js', '.json'],
         alias: {
-          '@src': './src',
-          '@components': './src/components',
-          '@constants': './src/constants',
-          '@context': './src/context',
-          '@hooks': './src/hooks',
-          '@utils': './src/utils',
+          '@app': './app',
+          '@database': './app/database',
+          '@core': './core',
+          '@components': './app/components',
+          '@constants': './app/constants',
+          '@context': './app/context',
+          '@hooks': './app/hooks',
+          '@initialize': './app/initialize',
+          '@localization': './app/localization',
+          '@models': './app/models',
+          '@navigation': './app/navigation',
+          '@store': './app/store',
+          '@screens': './app/screens',
+          '@utils': './app/utils',
+          '@env': './env',
           '@assets': './assets',
           '@typings': './types',
         },

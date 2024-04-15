@@ -1,4 +1,15 @@
 {
   "extends": "./tsconfig",
-  "exclude": ["example"]
+  "compilerOptions": {
+    "emitDeclarationOnly": true
+  },
+  "include": ["src/**/*", "jest/**/*", "types/**/*", "test/**/*"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js",
+    "modules"
+  ]
 }
